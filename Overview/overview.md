@@ -33,9 +33,71 @@ Below is the mentioned link for a quick hands-on on docker. This is built for a 
 ### Build first Alpine Docker image and push it to Dockerhub
 
 ```
-docker run -dit alpine sh
+$ docker run -dit alpine sh
 ```
 If image is present locally in your system then it retrieve from the system, otherwise if it is not present in the system locally then it will retrieve from official library over dockerhub.
 
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/run.PNG)
+
+
+```
+$ docker ps
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/docker-ps.PNG)
+
+
+```
+$ docker attach 62
+/ #
+/ #
+/ # cat /etc/os-release
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.9.2
+PRETTY_NAME="Alpine Linux v3.9"
+HOME_URL="https://alpinelinux.org/"
+BUG_REPORT_URL="https://bugs.alpinelinux.org/"
+/ #
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/attach.PNG)
+
+
+```
+/ # apk update
+
+/ # apk add git
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/update.PNG)
+
+
+```
+$ docker commit -m "Added GIT" 620 abhayrajsr/alpine-git
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/commit.PNG)
+
+
+```
+$ docker images
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/docker-images.PNG)
+
+
+```
+$ docker tag abhayrajsr/alpine-git:latest abhayrajsr/alpine-git:1.0
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/tag.PNG)
+
+
+```
+$ docker images
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/docker-images2.PNG)
+
+
+```
+$ docker login
+
+$ docker push abhayrajsr/alpine-git:1.0
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/login-push.PNG)
 
