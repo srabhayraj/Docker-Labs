@@ -2,7 +2,7 @@ Below is the mentioned link for a quick hands-on on docker. This is built for a 
 
 **[hellowhale](https://github.com/srabhayraj/Docker-Labs/tree/master/hellowhale)**
 
-### Below is the quick points for explanation
+### Below is the quick points for explanation for "hellowhale" explanation
 
 * Pre requisite
   * Install Docker
@@ -30,3 +30,4 @@ Below is the mentioned link for a quick hands-on on docker. This is built for a 
   * docker login
   * docker push abhayrajsr/hellowhale
 
+**[Build first Alpine Docker image and push it to Dockerhub]()**
