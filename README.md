@@ -38,5 +38,5 @@ docker login
 ```
 
 ```
-docker push srabhayraj/hellowhale
+docker push srabhayraj/Docker-Labs/hellowhale
 ```
