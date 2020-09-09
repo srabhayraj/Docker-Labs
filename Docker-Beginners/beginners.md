@@ -11,7 +11,7 @@ $ docker run hello-world
 ```
 $ docker images
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/dockerimagesPNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/dockerimages.PNG)
       
       
 * Showing All Images (included hidden images too)
@@ -35,7 +35,7 @@ $docker images alpine:3.7
       
 $ docker images alpine
 ```
-!alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/dockerpull.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/dockerpull.PNG)
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/tag.PNG)
       
 * Listing the full length images IDs
