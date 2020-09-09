@@ -36,5 +36,6 @@ Below is the mentioned link for a quick hands-on on docker. This is built for a 
 docker run -dit alpine sh
 ```
 If image is present locally in your system then it retrieve from the system, otherwise if it is not present in the system locally then it will retrieve from official library over dockerhub.
-![alt Text](metadata/run)
+
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/run.png)
 
