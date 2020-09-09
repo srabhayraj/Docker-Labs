@@ -1,8 +1,5 @@
-This is built for a quick demonstration.
+This is built for a quick demonstration by using the hellowhale image.
 
-## Pre-requisite
-* Install Docker
+**[hellowhale](hellowhale)
 
-## Clone the Repository
-git clone https://github.com/ajeetraina/hellowhale
 
