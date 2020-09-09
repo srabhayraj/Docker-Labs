@@ -1,13 +1,13 @@
 # Docker-Labs for Beginners
 
-### * Run Hello-world Example
+### Run Hello-world Example
 ```
 $ docker run hello-world
 ```
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/hello-world.PNG)
 
-### * Docker Images
-      - Listing Docker Images
+### Docker Images
+      * Listing Docker Images
       
       ```
       $ docker images
@@ -16,7 +16,7 @@ $ docker run hello-world
       ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/dockerimagesPNG)
       
       
-      - Showing All Images (included hidden images too)
+      * Showing All Images (included hidden images too)
       
       ```
       $ docker images -a
@@ -25,7 +25,7 @@ $ docker run hello-world
       ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/dockerimages-a.PNG)
       
       
-      - Listing images by name and tag
+      * Listing images by name and tag
       
       First pull the images of same OS and different versions
       
@@ -49,7 +49,7 @@ $ docker run hello-world
       ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/tag.PNG)
       
       
-      - Listing the full length image IDs
+      * Listing the full length image IDs
       
       ```
       $ docker images --no-trunc
@@ -58,7 +58,7 @@ $ docker run hello-world
       ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/notrunc.PNG)
       
       
-      - Listing out images with filter
+      * Listing out images with filter
       
       ```
       
