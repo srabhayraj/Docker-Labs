@@ -1,5 +1,5 @@
-This is built for a quick demonstration by using the hellowhale image.
+Below is the mentioned link for a quick hands-on on docker. This is built for a quick demonstration by using the hellowhale image.
 
-**[hellowhale](Docker-Labs/hellowhale)**
+**[hellowhale](https://github.com/srabhayraj/Docker-Labs/tree/master/hellowhale)**
 
 
