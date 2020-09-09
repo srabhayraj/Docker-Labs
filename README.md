@@ -10,7 +10,7 @@ Pre-requisite
 ## Clone the Repository
 
 ```
-git clone https://github.com/ajeetraina/hellowhale
+git clone https://github.com/srabhayraj/Docker-Labs/hellowhale
 ```
 
 ## Building the Image
@@ -28,7 +28,7 @@ docker run -d -p 80:80 --name hellowhale hellowhale
 ## Tagging the Image
 
 ```
-docker tag hellowhale ajeetraina/hellowhale
+docker tag hellowhale srabhayraj/Docker-Labs/hellowhale
 ```
 
 ## Pushing it to Dockerhub
@@ -38,5 +38,5 @@ docker login
 ```
 
 ```
-docker push ajeetraina/hellowhale
+docker push srabhayraj/hellowhale
 ```
