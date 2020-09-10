@@ -132,8 +132,8 @@ $ docker inspect app1
 ```
 $ docker logs --follow app2
 ```
-  * "docker logs" command fetch the logs of a container.
-  * --follow,-f  --> 	Follow log output
+  * "docker logs" command fetch the logs of a container.<br />
+  * --follow,-f  --> 	Follow log output<br />
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/managing/21.PNG)
 
 ### Stop to tracking logs
