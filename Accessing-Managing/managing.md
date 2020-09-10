@@ -7,7 +7,8 @@
 ```
 $ docker ps -a -q
 ```
-  * -q is for query
+  * -q is for query <br />
+  
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/managing/1.PNG)
 
 ### 
