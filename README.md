@@ -9,3 +9,4 @@
   
   ### Accessing and Managing Docker Container
    * [Accessing the Container Shell](Accessing-Managing/accessing.md)
+   * [Managing the Container Shell](Accessing-Managing/managing.md)
