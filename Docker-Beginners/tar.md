@@ -67,6 +67,7 @@ $ docker images
 
 ```
 $ docker load < mynginx1.tar
+```
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/load.PNG)
 
 ```
