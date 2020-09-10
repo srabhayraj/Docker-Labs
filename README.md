@@ -5,4 +5,4 @@
   ### Getting Started with Docker
    * [Run Hello-world Example and Docker Images](Docker-Beginners/beginners.md)
    * [Saving Images and Containers as tar files for Sharing](Docker-Beginners/tar.md)
-   * [Build First Docker Image and Push it to Dockerhub](Docker-Beginners/push.md)
+   * [Build First Docker Image and Push it to Dockerhub](Overview/overview.md)
