@@ -11,4 +11,9 @@ $ docker ps -a -q
   
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/managing/1.PNG)
 
-### 
+### To clear the environment of docker, delete all the containers which have created till now.
+```
+$ docker rm -f $(docker ps -a -q)
+```
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/managing/2.PNG)
+
