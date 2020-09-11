@@ -13,4 +13,5 @@
   
   ### Getting Started with Dockerfile
    * [Dockerfile Overview](Dockerfile-Overview/overview.md)
-   * 
+   * Creating Docker Image with
+     * [Installing Git](Dockerfile-Overview/installing.md)
