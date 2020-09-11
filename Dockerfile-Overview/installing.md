@@ -80,6 +80,8 @@ $ eval $(docker-machine env default)
 ```
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/git/12.PNG)
 
+  * After the machine starts, this command set the environment variables for the command window.
+
 ```
 $ docker-machine ls
 ```
@@ -94,3 +96,5 @@ $ docker ps
 $ docker build -t abhayrajsr/alpine-git .
 ```
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/git/15.PNG)
+
+* Now, the build command run successfully, and it build the docker image from Dockerfile.
