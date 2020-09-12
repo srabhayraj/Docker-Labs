@@ -1,6 +1,7 @@
 # Create an image with COPY Instruction
-    * The COPY instruction copies files or directories from source and adds them to the filesystem of the container at destinatio.
-    * Two form of COPY instruction:
+   * The COPY instruction copies files or directories from source and adds them to the filesystem of the container at destinatio.
+   * Two form of COPY instruction:
+   
     ```
     COPY [--chown=<user>:<group>] <src>... <dest>
     COPY [--chown=<user>:<group>] ["<src>",... "<dest>"] (this form is required for paths containing whitespace)
