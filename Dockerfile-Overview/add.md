@@ -1,4 +1,6 @@
 # Create an image with ADD Instruction
+    * COPY and ADD are both Dockerfile instructions that serve similar purposes. They let you copy files from a specific location into a Docker image.
+    * COPY takes in a src and destination. It only lets you copy in a local file or directory from your host (the machine building the Docker image) into the Docker image itself.
 
 ### Creating Dockerfile
 ```
