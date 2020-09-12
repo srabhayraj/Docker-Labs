@@ -15,30 +15,33 @@ COPY index.html /usr/share/nginx/html/
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 ```
 ![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/1.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/2.PNG)
 
 ### Creating the index.html file
 ```
 $ echo "Welcome to Docker-Labs ! " > index.html
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/2.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/3.PNG)
 
 ### Building Docker Image
 ```
 $ docker image build -t cpy:v1 .
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/3.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/4.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/5.PNG)
 
 ### Starting the Container
 ```
 $ docker container run -d --rm --name myapp1 -p 80:80 cpy:v1
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/4.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/6.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/7.PNG)
 
 ### Checking Index File
 ```
 $ curl localhost
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/5.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/8.PNG)
 
 ## COPY Instruction in Multi-Stage Builds
 
@@ -53,26 +56,28 @@ LABEL maintainer="Abhay Raj Singh Rathore"
 COPY --from=stage1 /opt/index.html /usr/share/nginx/html/
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/6.PNG)
-
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/9.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/10.PNG)
 
 ### Building Docker Image
 ```
 $ docker image build -t cpy:v2 .
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/7.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/11.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/12.PNG)
 
 ### Starting the container
 ```
 $ docker container run -d --rm --name myapp2 -p 8080:80 cpy:v2
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/8.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/13.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/14.PNG)
 
 ### Checking index.html file
 ```
 $ curl localhost:8080
 ```
-![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/9.PNG)
+![alt Text](https://github.com/srabhayraj/Docker-Labs/blob/master/metadata/copy/15.PNG)
 
 
 ## NOTE
