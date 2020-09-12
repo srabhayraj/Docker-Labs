@@ -2,10 +2,10 @@
    * The COPY instruction copies files or directories from source and adds them to the filesystem of the container at destination.
    * Two form of COPY instruction:
    
-    ```
+   
     COPY [--chown=<user>:<group>] <src>... <dest>
     COPY [--chown=<user>:<group>] ["<src>",... "<dest>"] (this form is required for paths containing whitespace)
-    ```
+   
 
 ### Creating a Dockerfile
 ```
